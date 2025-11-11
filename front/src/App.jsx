@@ -1,22 +1,20 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import CreateBook from './pages/CreateBooks';
-import ShowBook from './pages/ShowBook';
-import EditBook from './pages/EditBook';
-import DeleteBook from './pages/DeleteBook';
+import { useState } from 'react';
+import LoginForm from './LoginForm';
+import Protected from './Protected';
 
+function App() {
+  const [token, setToken] = useState(null);       /* 1 */
 
-const App = () => {
   return (
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/books/create' element={<CreateBook />} />
-      <Route path='/books/details/:id' element={<ShowBook />} />
-      <Route path='/books/edit/:id' element={<EditBook />} />
-      <Route path='/books/delete/:id' element={<DeleteBook />} />
-    </Routes>
+    <div>
+      <h1>JWT Demo</h1>                           
+      {!token ? (                                 /* 2, 13*/
+        <LoginForm setToken={setToken} />         /* 2a */
+      ) : (
+        <Protected token={token} />               /* 2b */
+      )}
+    </div>
   );
-};
+}
 
 export default App;
