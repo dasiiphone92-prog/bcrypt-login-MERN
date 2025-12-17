@@ -1,0 +1,667 @@
+/* דף הבית */
+.home-container {
+  text-align: center;
+  background-color:black; 
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.home-logo {
+  width: 40%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.home-title {
+  color:aliceblue;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.home-text {
+  color:aliceblue;
+  line-height: 1.7;
+  font-size: 17px;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+}
+
+.donation-quote {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color:aliceblue;
+}
+
+/* כפתורים */
+.main-btn {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 14px 18px;
+  background-color:rgb(152, 122, 44); /* זהב בהיר */
+  color: #000;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.main-btn:hover {
+  background-color: #f1d78b;
+}
+
+body {
+  background-color: #000;
+  color: aliceblue;
+  margin: 0;
+  font-family: "Heebo", Arial, sans-serif;
+}
+
+.page-container {
+  text-align: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.small-logo {
+  width: 200px;
+  margin: 0 auto 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: rgb(194, 155, 33);
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.home-link:hover {
+  background-color: #ffdd7f;
+}
+
+.back-btn {
+  display: inline-block;
+  margin: 10px 0 25px;
+  color: #ffd966;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  color: #ffec99;
+}
+
+.page-title {
+  color: aliceblue;
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.form-card {
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
+
+.form-group {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffec99;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 6px;
+  border: 1px solid #666;
+  background-color: #222;
+  color: aliceblue;
+  font-family: "Heebo", Arial, sans-serif;
+}
+
+.form-group select {
+  cursor: pointer;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(194, 155, 33);
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffdd7f;
+}
+
+.btn--danger {
+  background-color: #cc3333;
+  color: white;
+}
+
+.btn--danger:hover {
+  background-color: #ff4d4d;
+}
+
+.btn--secondary {
+  background-color: rgb(194, 155, 33);
+  color: black;
+}
+
+.btn--secondary:hover {
+  background-color: #ffdd7f;
+}
+
+.btn-small {
+  padding: 8px 15px;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.loader {
+  font-size: 22px;
+  margin: 20px;
+  color: #ffd966;
+}
+
+.table-container {
+  margin: 0 auto 30px;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #111;
+  color: aliceblue;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  color: #ffd966;
+  font-size: 20px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.admin-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+  margin: 40px auto;
+}
+
+.admin-btn {
+  background-color: #d4af37;
+  color: black;
+  padding: 15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.admin-btn:hover {
+  background-color: #f5d97c;
+}
+
+.empty-message {
+  color: #ffd966;
+  font-size: 18px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.table-wrapper {
+  margin: 0 auto 30px;
+  max-width: 1000px;
+  overflow-x: auto;
+}
+
+.search-box {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-box input {
+  width: 260px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Toolbar buttons spacing */
+.table-toolbar {
+  margin: 20px auto;
+  max-width: 1000px;
+  padding: 15px;
+}
+
+.toolbar-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.toolbar-buttons .btn {
+  margin: 0;
+}
+
+.filter-row {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.items-list {
+  text-align: right;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.items-list li {
+  margin-bottom: 5px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 1px solid #666;
+  background-color: #222;
+  color: aliceblue;
+}
+
+/* Responsive Design - Mobile First */
+
+/* Mobile devices (up to 768px) */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 20px 15px;
+  }
+
+  .home-logo {
+    width: 60%;
+    max-width: 150px;
+  }
+
+  .home-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .home-text {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .donation-quote {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .main-btn {
+    width: 90%;
+    max-width: 250px;
+    font-size: 16px;
+    padding: 12px 16px;
+    margin: 15px auto;
+  }
+
+  .page-container {
+    padding: 20px 15px;
+  }
+
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  .form-card {
+    padding: 20px 15px;
+    margin: 0 auto 20px;
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+
+  .form-group label {
+    font-size: 16px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .admin-buttons {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .admin-btn {
+    font-size: 18px;
+    padding: 12px;
+    width: 100%;
+  }
+
+  .table-wrapper {
+    margin: 0 auto 20px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    font-size: 14px;
+    min-width: 600px;
+  }
+
+  th, td {
+    padding: 8px 6px;
+    font-size: 14px;
+  }
+
+  th {
+    font-size: 16px;
+  }
+
+  .table-toolbar {
+    padding: 10px;
+    margin: 15px auto;
+  }
+
+  .toolbar-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .toolbar-buttons .btn {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .filter-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .filter-row label {
+    font-size: 16px;
+  }
+
+  .filter-row input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .search-box input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .items-list {
+    font-size: 13px;
+    padding-right: 5px;
+  }
+
+  .items-list li {
+    margin-bottom: 3px;
+  }
+
+  .small-logo {
+    width: 150px;
+  }
+
+  .back-btn {
+    font-size: 16px;
+    margin: 8px 0 20px;
+  }
+
+  .error-message {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .empty-message {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .actions .btn {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .btn-small {
+    padding: 6px 12px;
+    font-size: 12px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .data-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .data-table thead,
+  .data-table tbody,
+  .data-table tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .app-header {
+    padding: 5px 0;
+  }
+
+  .small-logo {
+    width: 120px;
+    margin: 0 auto 10px;
+  }
+
+  .home-link {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  /* PDF iframe responsive */
+  iframe {
+    width: 100% !important;
+    height: 100vh !important;
+    max-height: 100vh;
+  }
+}
+
+/* Tablet devices (768px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-container {
+    padding: 30px 20px;
+  }
+
+  .home-title {
+    font-size: 24px;
+  }
+
+  .home-text {
+    font-size: 16px;
+  }
+
+  .page-container {
+    padding: 30px 20px;
+  }
+
+  .page-title {
+    font-size: 28px;
+  }
+
+  .form-card {
+    max-width: 600px;
+    padding: 25px;
+  }
+
+  .table-wrapper {
+    max-width: 95%;
+  }
+
+  table {
+    font-size: 15px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  .toolbar-buttons {
+    gap: 12px;
+  }
+
+  .admin-buttons {
+    max-width: 400px;
+  }
+
+  .small-logo {
+    width: 180px;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: 80vh !important;
+  }
+}
+
+/* Large screens (1024px and above) */
+@media (min-width: 1025px) {
+  .table-wrapper {
+    max-width: 1200px;
+  }
+
+  .form-card {
+    max-width: 600px;
+  }
+}
+
+/* Print styles - הסתרת כפתורים וכלי עזר בעת הדפסה */
+@media print {
+  .table-toolbar,
+  .toolbar-buttons,
+  .btn,
+  .no-print,
+  header,
+  .page-title,
+  .back-btn,
+  .error-message,
+  .filter-row {
+    display: none !important;
+  }
+  
+  .table-wrapper,
+  .data-table {
+    width: 100%;
+    page-break-inside: avoid;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .page-container {
+    padding: 0;
+  }
+}
+

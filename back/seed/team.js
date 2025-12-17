@@ -1,0 +1,26 @@
+const teamData = [
+  { name: "גמילות חסדים צוות מרי  + שמחון 🙏🏻❤️", phone: "0545692251", area: "", role: "" },
+  { name: "יהודית - הדס", phone: "0545692251", area: "", role: "" },
+  { name: "ליאורה", phone: "", area: "", role: "" },
+  { name: "סאלם - אוריאל" },
+  { name: "צוות אביגייל + בן סימון" },
+  { name: "צוות אווה" },
+  { name: "צוות אופיר" },
+  { name: "צוות הררי + אסנת" },
+  { name: "צוות טליה ואליאב" },
+  { name: "צוות מזרחי + שמיאן" },
+  { name: "צוות סרבר+ קרימוב - חלי" },
+  { name: "צוות עדי אליס" },
+  { name: "צוות עוגר+ אבי" },
+  { name: "צוות עטיה + קראבול גמילות חסדים ♥️" },
+  { name: "צוות עמית" },
+  { name: "צוות ציון+נורית חלוקה גמח" },
+  { name: "צוות שושן +ברזילי" },
+  { name: "צוות שיר" },
+  { name: "צוות שרביט" },
+  { name: "צוות שרביט,צוות עוז" },
+  { name: "צוות שרון + צחי" },
+  { name: "רווית - ברק בן זינו" },
+];
+
+module.exports = teamData;
